@@ -222,7 +222,7 @@ a {
     font-weight: 400;
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 580px) {
     /*   LISTINGS  */
     .grid-container {
       width: 100%;
@@ -257,7 +257,7 @@ a {
   }
 
 
-  @media screen and (max-width: 778px) {
+  @media screen and (max-width: 768px) {
     .topnav a:not(:nth-last-child(-n+1)){display: none;}
     .topnav a.icon {
       float: left;
