@@ -191,8 +191,8 @@ a {
       font-weight: 300;
       align-items: center;
       grid-area: footer;
+      position: absolute
   }
-
 
   .data-footer {
       background: transparent;
@@ -204,10 +204,12 @@ a {
       padding: 1em;
       background-color: #333333;
   }
+
   .bien-footer {
     position: absolute;
   }
 
+  
   /*  HELP  */
   .cuerpo {
     height: 100%;
