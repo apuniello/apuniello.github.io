@@ -191,7 +191,6 @@ a {
       font-weight: 300;
       align-items: center;
       grid-area: footer;
-      position: absolute
   }
 
   .data-footer {
@@ -209,7 +208,7 @@ a {
     position: absolute;
   }
 
-  
+
   /*  HELP  */
   .cuerpo {
     height: 100%;
@@ -225,6 +224,20 @@ a {
   }
 
   @media screen and (max-width: 580px) {
+    /*  INDEX  */
+    .bienvenida { 
+      font-size:90%;
+    }
+
+    .bien-promo {
+      font-size:90%;
+    }
+
+  /*  HELP  */
+  .cuerpo p {
+    font-size:90%;
+  }
+
     /*   LISTINGS  */
     .grid-container {
       width: 100%;

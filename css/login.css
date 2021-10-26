@@ -11,7 +11,6 @@
 body {
     width: 100%;
     margin: 0;
-    min-width: 340px;
   }
 
 html{
@@ -66,7 +65,7 @@ a {
       font-weight: 300;
       align-items: center;
       grid-area: footer;
-      position: absolute
+      position: absolute;
   }
 
   .data-footer {
@@ -80,7 +79,7 @@ a {
       background-color: #333333;
   }
 
-
+/*   Main   */
   .cuerpo {
     height: 100%;
     width: 100%;
@@ -88,10 +87,18 @@ a {
     padding: 2em;
   }
 
+  .form-check-label{
+    padding-left: 15px;
+  }
+
+  @media screen and (max-width: 580px) {
+    .footer {
+      width: 100%;
+    }
+  }
 
 
-
-  @media screen and (max-width: 780px) {
+  @media screen and (max-width: 768px) {
     .topnav a:not(:nth-last-child(-n+1)){display: none;}
     .topnav a.icon {
       float: left;
